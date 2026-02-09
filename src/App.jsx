@@ -38,7 +38,7 @@ export default function App() {
     }
   ];
 
-  const [setSelectedIndex, setSelectedIndex]  = useState (0);
+  cconst [selectedIndex, setSelectedIndex] = useState(0);
   
 
   return (
@@ -46,15 +46,33 @@ export default function App() {
     
 
     <div style={
-      {padding: "20px"
-
-    }>
-  }>
+      { padding: "20px" }
+      }>
 
       <h1>Primi passi con use state</h1>
 
       {/* Bottoni */}
       <button onClick={() => setSelectedIndex(0)}>HTML</button>
+      
+      <button onClick={() => setSelectedIndex(1)} 
+      
+      style={{ marginLeft: "10px" }}>CSS</button>
+
+<button onClick={() => setSelectedIndex(1)} 
+      
+      style={{ marginLeft: "10px" }}>CSS</button>
+
+<button onClick={() => setSelectedIndex(1)} 
+      
+      style={{ marginLeft: "10px" }}>CSS</button>
+
+<button onClick={() => setSelectedIndex(1)} 
+      
+      style={{ marginLeft: "10px" }}>CSS</button>
+
+<button onClick={() => setSelectedIndex(1)} 
+      
+      style={{ marginLeft: "10px" }}>CSS</button>
 
 
     </div>
