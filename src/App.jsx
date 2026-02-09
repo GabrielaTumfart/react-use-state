@@ -53,6 +53,9 @@ export default function App() {
 
       <h1>Primi passi con use state</h1>
 
+      {/* Bottoni */}
+      <button onClick={() => setSelectedIndex(0)}>HTML</button>
+
 
     </div>
       
