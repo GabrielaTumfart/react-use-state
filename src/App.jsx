@@ -43,20 +43,20 @@ export default function App() {
 
   return (
 
-    <>
+    
 
     <div style={
       {padding: "20px"
 
     }>
-  }
+  }>
 
       <h1>Primi passi con use state</h1>
 
 
     </div>
       
-    </>
+    
   )
 }
 
