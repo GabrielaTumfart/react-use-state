@@ -38,7 +38,7 @@ export default function App() {
     }
   ];
 
-  const [selctedIndex, setselectIndex] = useState (0);
+  const [setSelectedIndex, setSelectedIndex = useState (0);
   
 
   return (
