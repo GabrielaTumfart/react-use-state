@@ -45,7 +45,11 @@ export default function App() {
 
     <>
 
-    <div>
+    <div style={
+      {padding: "20px"
+
+    }>
+  }
 
       <h1>Primi passi con use state</h1>
 
