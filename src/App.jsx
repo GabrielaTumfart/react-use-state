@@ -60,20 +60,29 @@ export default function App() {
 
 <button onClick={() => setSelectedIndex(1)} 
       
-      style={{ marginLeft: "10px" }}>CSS</button>
+      style={{ marginLeft: "10px" }}>JAVASCRIPT</button>
 
 <button onClick={() => setSelectedIndex(1)} 
       
-      style={{ marginLeft: "10px" }}>CSS</button>
+      style={{ marginLeft: "10px" }}>NODE.JS</button>
 
 <button onClick={() => setSelectedIndex(1)} 
       
-      style={{ marginLeft: "10px" }}>CSS</button>
+      style={{ marginLeft: "10px" }}>EXPRESS</button>
 
 <button onClick={() => setSelectedIndex(1)} 
       
-      style={{ marginLeft: "10px" }}>CSS</button>
+      style={{ marginLeft: "10px" }}>REACTJS</button>
 
+
+      <div  style={
+        { marginTop: "20px" }}>
+
+        <h2>{languages[selectedIndex].title}</h2>
+
+    </div>
+
+   
 
     </div>
       
